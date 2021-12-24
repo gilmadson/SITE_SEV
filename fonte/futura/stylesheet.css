@@ -1,0 +1,286 @@
+@font-face {
+    font-family: 'Futura Md BT';
+    src: url('FuturaBT-Bold.eot');
+    src: local('Futura Md BT Bold'), local('FuturaBT-Bold'),
+        url('FuturaBT-Bold.eot?#iefix') format('embedded-opentype'),
+        url('FuturaBT-Bold.woff2') format('woff2'),
+        url('FuturaBT-Bold.woff') format('woff'),
+        url('FuturaBT-Bold.ttf') format('truetype'),
+        url('FuturaBT-Bold.svg#FuturaBT-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura MdCn BT';
+    src: url('FuturaBT-MediumCondensed.eot');
+    src: local('Futura MdCn BT Medium'), local('FuturaBT-MediumCondensed'),
+        url('FuturaBT-MediumCondensed.eot?#iefix') format('embedded-opentype'),
+        url('FuturaBT-MediumCondensed.woff2') format('woff2'),
+        url('FuturaBT-MediumCondensed.woff') format('woff'),
+        url('FuturaBT-MediumCondensed.ttf') format('truetype'),
+        url('FuturaBT-MediumCondensed.svg#FuturaBT-MediumCondensed') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura Hv BT';
+    src: url('FuturaBT-HeavyItalic.eot');
+    src: local('Futura Hv BT Heavy Italic'), local('FuturaBT-HeavyItalic'),
+        url('FuturaBT-HeavyItalic.eot?#iefix') format('embedded-opentype'),
+        url('FuturaBT-HeavyItalic.woff2') format('woff2'),
+        url('FuturaBT-HeavyItalic.woff') format('woff'),
+        url('FuturaBT-HeavyItalic.ttf') format('truetype'),
+        url('FuturaBT-HeavyItalic.svg#FuturaBT-HeavyItalic') format('svg');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Futura MdCn BT';
+    src: url('FuturaMdCn-Italic.eot');
+    src: local('Futura MdCn BT-Italic'), local('FuturaMdCn-Italic'),
+        url('FuturaMdCn-Italic.eot?#iefix') format('embedded-opentype'),
+        url('FuturaMdCn-Italic.woff2') format('woff2'),
+        url('FuturaMdCn-Italic.woff') format('woff'),
+        url('FuturaMdCn-Italic.ttf') format('truetype'),
+        url('FuturaMdCn-Italic.svg#FuturaMdCn-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Futura XBlk BT';
+    src: url('FuturaBT-ExtraBlack.eot');
+    src: local('Futura Extra Black BT'), local('FuturaBT-ExtraBlack'),
+        url('FuturaBT-ExtraBlack.eot?#iefix') format('embedded-opentype'),
+        url('FuturaBT-ExtraBlack.woff2') format('woff2'),
+        url('FuturaBT-ExtraBlack.woff') format('woff'),
+        url('FuturaBT-ExtraBlack.ttf') format('truetype'),
+        url('FuturaBT-ExtraBlack.svg#FuturaBT-ExtraBlack') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura LtCn BT';
+    src: url('FuturaBT-LightCondensed.eot');
+    src: local('Futura LtCn BT Light'), local('FuturaBT-LightCondensed'),
+        url('FuturaBT-LightCondensed.eot?#iefix') format('embedded-opentype'),
+        url('FuturaBT-LightCondensed.woff2') format('woff2'),
+        url('FuturaBT-LightCondensed.woff') format('woff'),
+        url('FuturaBT-LightCondensed.ttf') format('truetype'),
+        url('FuturaBT-LightCondensed.svg#FuturaBT-LightCondensed') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura Hv BT';
+    src: url('FuturaBT-Heavy.eot');
+    src: local('Futura Hv BT Heavy'), local('FuturaBT-Heavy'),
+        url('FuturaBT-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('FuturaBT-Heavy.woff2') format('woff2'),
+        url('FuturaBT-Heavy.woff') format('woff'),
+        url('FuturaBT-Heavy.ttf') format('truetype'),
+        url('FuturaBT-Heavy.svg#FuturaBT-Heavy') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura XBlkCn BT';
+    src: url('FuturaBT-ExtraBlackCondensed.eot');
+    src: local('Futura XBlkCn BT Extra Black'), local('FuturaBT-ExtraBlackCondensed'),
+        url('FuturaBT-ExtraBlackCondensed.eot?#iefix') format('embedded-opentype'),
+        url('FuturaBT-ExtraBlackCondensed.woff2') format('woff2'),
+        url('FuturaBT-ExtraBlackCondensed.woff') format('woff'),
+        url('FuturaBT-ExtraBlackCondensed.ttf') format('truetype'),
+        url('FuturaBT-ExtraBlackCondensed.svg#FuturaBT-ExtraBlackCondensed') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura Lt BT';
+    src: url('FuturaBT-Light.eot');
+    src: local('Futura Lt BT Light'), local('FuturaBT-Light'),
+        url('FuturaBT-Light.eot?#iefix') format('embedded-opentype'),
+        url('FuturaBT-Light.woff2') format('woff2'),
+        url('FuturaBT-Light.woff') format('woff'),
+        url('FuturaBT-Light.ttf') format('truetype'),
+        url('FuturaBT-Light.svg#FuturaBT-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura Md BT';
+    src: url('FuturaBT-MediumItalic.eot');
+    src: local('Futura Medium Italic BT'), local('FuturaBT-MediumItalic'),
+        url('FuturaBT-MediumItalic.eot?#iefix') format('embedded-opentype'),
+        url('FuturaBT-MediumItalic.woff2') format('woff2'),
+        url('FuturaBT-MediumItalic.woff') format('woff'),
+        url('FuturaBT-MediumItalic.ttf') format('truetype'),
+        url('FuturaBT-MediumItalic.svg#FuturaBT-MediumItalic') format('svg');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Futura Bk BT';
+    src: url('FuturaBT-BookItalic.eot');
+    src: local('Futura Book Italic BT'), local('FuturaBT-BookItalic'),
+        url('FuturaBT-BookItalic.eot?#iefix') format('embedded-opentype'),
+        url('FuturaBT-BookItalic.woff2') format('woff2'),
+        url('FuturaBT-BookItalic.woff') format('woff'),
+        url('FuturaBT-BookItalic.ttf') format('truetype'),
+        url('FuturaBT-BookItalic.svg#FuturaBT-BookItalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Futura Bk BT';
+    src: url('FuturaBT-Book.eot');
+    src: local('Futura Book BT'), local('FuturaBT-Book'),
+        url('FuturaBT-Book.eot?#iefix') format('embedded-opentype'),
+        url('FuturaBT-Book.woff2') format('woff2'),
+        url('FuturaBT-Book.woff') format('woff'),
+        url('FuturaBT-Book.ttf') format('truetype'),
+        url('FuturaBT-Book.svg#FuturaBT-Book') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura LtCn BT';
+    src: url('FuturaLtCn-Italic.eot');
+    src: local('Futura LtCn BT-Italic'), local('FuturaLtCn-Italic'),
+        url('FuturaLtCn-Italic.eot?#iefix') format('embedded-opentype'),
+        url('FuturaLtCn-Italic.woff2') format('woff2'),
+        url('FuturaLtCn-Italic.woff') format('woff'),
+        url('FuturaLtCn-Italic.ttf') format('truetype'),
+        url('FuturaLtCn-Italic.svg#FuturaLtCn-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Futura BdCn BT';
+    src: url('FuturaBT-BoldCondensed.eot');
+    src: local('Futura BdCn BT Bold'), local('FuturaBT-BoldCondensed'),
+        url('FuturaBT-BoldCondensed.eot?#iefix') format('embedded-opentype'),
+        url('FuturaBT-BoldCondensed.woff2') format('woff2'),
+        url('FuturaBT-BoldCondensed.woff') format('woff'),
+        url('FuturaBT-BoldCondensed.ttf') format('truetype'),
+        url('FuturaBT-BoldCondensed.svg#FuturaBT-BoldCondensed') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura Md BT';
+    src: url('FuturaBT-Medium.eot');
+    src: local('Futura Md BT Medium'), local('FuturaBT-Medium'),
+        url('FuturaBT-Medium.eot?#iefix') format('embedded-opentype'),
+        url('FuturaBT-Medium.woff2') format('woff2'),
+        url('FuturaBT-Medium.woff') format('woff'),
+        url('FuturaBT-Medium.ttf') format('truetype'),
+        url('FuturaBT-Medium.svg#FuturaBT-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura BdCn BT';
+    src: url('FuturaBT-BoldCondensedItalic.eot');
+    src: local('Futura Bold Condensed Italic BT'), local('FuturaBT-BoldCondensedItalic'),
+        url('FuturaBT-BoldCondensedItalic.eot?#iefix') format('embedded-opentype'),
+        url('FuturaBT-BoldCondensedItalic.woff2') format('woff2'),
+        url('FuturaBT-BoldCondensedItalic.woff') format('woff'),
+        url('FuturaBT-BoldCondensedItalic.ttf') format('truetype'),
+        url('FuturaBT-BoldCondensedItalic.svg#FuturaBT-BoldCondensedItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Futura Md BT';
+    src: url('FuturaBT-BoldItalic.eot');
+    src: local('Futura Md BT Bold Italic'), local('FuturaBT-BoldItalic'),
+        url('FuturaBT-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('FuturaBT-BoldItalic.woff2') format('woff2'),
+        url('FuturaBT-BoldItalic.woff') format('woff'),
+        url('FuturaBT-BoldItalic.ttf') format('truetype'),
+        url('FuturaBT-BoldItalic.svg#FuturaBT-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Futura XBlkCnIt BT';
+    src: url('FuturaBT-ExtraBlackCondItalic.eot');
+    src: local('Futura XBlkCnIt BT Extra Black Italic'), local('FuturaBT-ExtraBlackCondItalic'),
+        url('FuturaBT-ExtraBlackCondItalic.eot?#iefix') format('embedded-opentype'),
+        url('FuturaBT-ExtraBlackCondItalic.woff2') format('woff2'),
+        url('FuturaBT-ExtraBlackCondItalic.woff') format('woff'),
+        url('FuturaBT-ExtraBlackCondItalic.ttf') format('truetype'),
+        url('FuturaBT-ExtraBlackCondItalic.svg#FuturaBT-ExtraBlackCondItalic') format('svg');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Futura XBlkIt BT';
+    src: url('FuturaBT-ExtraBlackItalic.eot');
+    src: local('Futura XBlkIt BT Extra Black Italic'), local('FuturaBT-ExtraBlackItalic'),
+        url('FuturaBT-ExtraBlackItalic.eot?#iefix') format('embedded-opentype'),
+        url('FuturaBT-ExtraBlackItalic.woff2') format('woff2'),
+        url('FuturaBT-ExtraBlackItalic.woff') format('woff'),
+        url('FuturaBT-ExtraBlackItalic.ttf') format('truetype'),
+        url('FuturaBT-ExtraBlackItalic.svg#FuturaBT-ExtraBlackItalic') format('svg');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Futura Lt BT';
+    src: url('FuturaBT-LightItalic.eot');
+    src: local('Futura Lt BT Light Italic'), local('FuturaBT-LightItalic'),
+        url('FuturaBT-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('FuturaBT-LightItalic.woff2') format('woff2'),
+        url('FuturaBT-LightItalic.woff') format('woff'),
+        url('FuturaBT-LightItalic.ttf') format('truetype'),
+        url('FuturaBT-LightItalic.svg#FuturaBT-LightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Futura LT';
+    src: url('FuturaLT-Bold.eot');
+    src: local('Futura LT Bold'), local('FuturaLT-Bold'),
+        url('FuturaLT-Bold.eot?#iefix') format('embedded-opentype'),
+        url('FuturaLT-Bold.woff2') format('woff2'),
+        url('FuturaLT-Bold.woff') format('woff'),
+        url('FuturaLT-Bold.ttf') format('truetype'),
+        url('FuturaLT-Bold.svg#FuturaLT-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Futura LT';
+    src: url('FuturaLT-Book.eot');
+    src: local('Futura LT Book'), local('FuturaLT-Book'),
+        url('FuturaLT-Book.eot?#iefix') format('embedded-opentype'),
+        url('FuturaLT-Book.woff2') format('woff2'),
+        url('FuturaLT-Book.woff') format('woff'),
+        url('FuturaLT-Book.ttf') format('truetype'),
+        url('FuturaLT-Book.svg#FuturaLT-Book') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

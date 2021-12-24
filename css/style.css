@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{    
+    background-color: rgb(255,255,255);
+    
+    font-family: sans-serif, Arial, Helvetica, sans-serif;
+}
+.header{
+    display: flex; 
+}
+.header .logo{
+    background-color: white;   
+    align-items: center;  
+    width: 100%;
+    background-color: rgb(255,255,255);
+    
+}
+.header .logo .nav-menu {
+    display: flex;
+}
+.header .logo .nav-menu .menu-logo .nomesev{    
+    display: flex;
+    padding: 5px;
+    color: rgb(255,141,0);
+    text-align: center;    
+}
+.header .logo .nav-menu .menu-logo .spansev{
+    font-size: 36px ;
+    font-weight: bold; 
+    color: rgb(0,161,171);
+    letter-spacing: 2px;
+}
+.header .logo .nav-menu .list-style{    
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    align-items: center;    
+    list-style: none;
+}
+.avatar{
+    height: 45px;
+    width: 45px;
+    align-items: center;
+    display: inline-flex;
+    font-size: 1rem;
+    height: 2rem;
+    justify-content: center;
+    width: 2rem;
+    box-shadow: 1px 2px 5px #0000004d;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.list-style li a{    
+    text-decoration: none;
+    display: flex;
+    flex-flow: row nowrap;
+    white-space: nowrap;
+    color: #00000080!important;
+    margin: 0;
+    padding: .3276rem 1rem
+}
+
+.list-style li a:hover{
+    background-color: #eaeaea;
+    border-bottom: 2px solid rgba(0,0,0,.5)!important;
+    margin: 0;
+    text-decoration: none;
+}
